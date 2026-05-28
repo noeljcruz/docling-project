@@ -4,6 +4,7 @@ from docling.datamodel.pipeline_options import PdfPipelineOptions, AcceleratorOp
 import json
 
 
+# Configure pipeline
 pipeline_options = PdfPipelineOptions()
 pipeline_options.accelerator_options = AcceleratorOptions(
     num_threads=4,

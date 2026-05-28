@@ -8,6 +8,7 @@ import logging
 logging.basicConfig(level=logging.ERROR)
 
 
+# Configure pipeline
 pipeline_options = PdfPipelineOptions()
 pipeline_options.accelerator_options = AcceleratorOptions(
     num_threads=4,
